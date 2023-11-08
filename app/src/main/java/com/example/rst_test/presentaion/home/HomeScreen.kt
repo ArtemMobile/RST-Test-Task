@@ -351,7 +351,7 @@ fun HomeScreen(
                             BlogItem(
                                 blog = blog as BlogUiModel,
                                 Modifier
-                                    .fillParentMaxWidth(.91f)
+                                    .fillParentMaxWidth()
                                     .padding(start = 16.dp)
                                     .clickable {
                                         navController.navigate("$BLOG/${blog.id}")
